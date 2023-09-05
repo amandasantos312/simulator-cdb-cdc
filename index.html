@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador CDB-CDC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">;
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/cdb-cdc.png" alt="Pessoas sendo atendidas">
+        <h1>Simulador de CDB e CDC</h1>
+        <h2>Crédito de Depósito Bancário e Crédito Direto ao Consumidor</h2>
+    </header>
+
+    <form id="entradas" action="#">
+        <div>
+            <label for="">Valor Investido:</label>
+            <input id="cx-valor-investido" type="number" step="0.01" placeholder="valor que deseja guardar">
+        </div>
+
+        <div>
+            <label for="">Taxa CDB:</label>
+            <input id="cx-taxa-cdb" type="number" placeholder="%">
+        </div>
+
+        <div>
+            <label for="">Ano de Vencimento:</label>
+            <input id="cx-ano" type="number" placeholder="ex: 2030">
+        </div>
+
+        <div>
+            <label for="">Taxa CDC:</label>
+            <input id="cx-taxa-cdc" type="number" placeholder="%">
+        </div>
+        
+        <div id="botoes">
+            <input type="reset" value="Limpar Dados">
+            <input id="btn-calcular" onclick="botao_calcular()" type="submit" value="Calcular">
+        </div>
+
+        <div>
+            <h3>
+                Created by: <a href="https://github.com/Amanda-Santos312">Amanda Santos</a>
+            </h3>
+        </div>
+
+    </form>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
