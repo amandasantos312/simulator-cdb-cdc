@@ -2,6 +2,7 @@ body {
     font-family: 'EB Garamond', serif;
     background-color: #ffac71;
     margin: 20px;
+    align-items: center;
     justify-content: center;
 }
 
@@ -14,43 +15,39 @@ header {
 
 img {
     width: 500px;
+    justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 h1 {
     padding: 10px;
     font-size: 2rem;
-    margin-bottom: 20px;
 }
 
 div {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+
 }
 
 form {
     padding: 20px;
     align-items: center;
+
 }
 
-label {
-    font-size: x-large;
-    color: black;
-}
-
-input [type="number"] {
-    width: 10px;
-    border-bottom: 1px;
-    box-sizing: content-box;
+#entradas {
+    align-items: center;
 }
 
 #botoes {
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    align-items: center;
 }
 
 #botoes input {
@@ -64,6 +61,17 @@ input [type="number"] {
 #botoes input:hover {
     background-color: #ffac71;
     font-size: 2rem;
+}
+
+label {
+    font-size: x-large;
+    color: black;
+}
+
+input [type="number"] {
+    width: 10px;
+    border-bottom: 1px;
+    box-sizing: content-box;
 }
 
 h3 {

@@ -29,18 +29,18 @@ function botao_calcular() {
     const lucro_banco = juros_cdc - juros_cdb
 
     //Saída:
-    const result = `🟢----> CDB <----
+    const result = `🟢----> CDB <----🟢
     Valor Investido: R$ ${valor_investido.toFixed(2)}
     Rendimento: R$ ${juros_cdb.toFixed(2)}
     Rendimento(%): ${percentual_faturado.toFixed(2)}
     Valor a Retirar: R$ ${valor_a_receber.toFixed(2)}
-    \n💸----> CDC <----
+    \n💸----> CDC <----💸
     Valor Emprestado: ${valor_emprestado.toFixed(2)}
     Juros Empréstimo: ${juros_cdc.toFixed(2)}
     Valor a Pagar: ${valor_a_pagar.toFixed(2)}
-    CET %: ${percentual_total.toFixed(2)} %
+    CET: ${percentual_total.toFixed(2)} %
     Valor Parcelas: ${tempo_meses}x de R$ ${valor_parcela.toFixed(2)}
-    \n💵----> Lucro do Banco <----
+    \n💵----> Lucro do Banco <----💵
     Lucro do Banco: R$ ${lucro_banco.toFixed(2)}`
     
     alert(result)
