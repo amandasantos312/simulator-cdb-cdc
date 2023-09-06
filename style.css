@@ -14,7 +14,7 @@ header {
 }
 
 img {
-    width: 500px;
+    width: 350px;
     justify-content: center;
     align-items: center;
     padding: 15px;
@@ -43,7 +43,6 @@ form {
 }
 
 #botoes {
-    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -51,7 +50,7 @@ form {
 }
 
 #botoes input {
-    max-width: 300px;
+    max-width: 100%;
     flex: 1;
     height: 40px;
     border-radius: 10px;
