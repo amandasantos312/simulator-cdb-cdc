@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <img src="./assets/cdb.png" alt="Pessoas sendo atendidas">
+        <img src="./assets/cdb_cdc.png" alt="Pessoa com suas finanças">
         <h1>Simulador de CDB e CDC</h1>
         <h2>Crédito de Depósito Bancário e Crédito Direto ao Consumidor</h2>
     </header>
@@ -21,27 +21,27 @@
     <form id="entradas" action="#">
         <div>
             <label for="">Valor Investido:</label>
-            <input id="cx-valor-investido" type="number" step="0.01" placeholder="valor que deseja guardar">
+            <input id="cx-valor-investido" type="number" step="0.01" placeholder="Valor que deseja guardar">
         </div>
 
         <div>
             <label for="">Taxa CDB:</label>
-            <input id="cx-taxa-cdb" type="number" placeholder="%">
+            <input id="cx-taxa-cdb" type="number" placeholder="ex:10%">
         </div>
 
         <div>
             <label for="">Ano de Vencimento:</label>
-            <input id="cx-ano" type="number" placeholder="ex: 2030">
+            <input id="cx-ano" type="number" placeholder="ex:2030">
         </div>
 
         <div>
             <label for="">Taxa CDC:</label>
-            <input id="cx-taxa-cdc" type="number" placeholder="%">
+            <input id="cx-taxa-cdc" type="number" placeholder="ex:2%">
         </div>
         
         <div id="botoes">
-            <input type="reset" value="Limpar Dados">
             <input id="btn-calcular" onclick="botao_calcular()" type="submit" value="Calcular">
+            <input type="reset" value="Limpar Dados">
         </div>
 
         <div>
